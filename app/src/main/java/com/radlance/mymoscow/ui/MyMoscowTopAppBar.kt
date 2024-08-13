@@ -1,4 +1,4 @@
-package com.radlance.mymoscow
+package com.radlance.mymoscow.ui
 
 import androidx.annotation.StringRes
 import androidx.compose.material.icons.Icons
@@ -12,6 +12,8 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.tooling.preview.Preview
+import com.radlance.mymoscow.R
+import com.radlance.mymoscow.ui.theme.AppTheme
 
 
 enum class MyMoscowScreen(@StringRes val title: Int) {
@@ -45,5 +47,10 @@ fun MyMoscowTopAppBar(
 @Preview
 @Composable
 private fun MyMoscowTopAppBarPreview() {
-    MyMoscowTopAppBar(canNavigateBack = true, currentScreen = MyMoscowScreen.Start, navigateUp = {})
+    AppTheme {
+        MyMoscowTopAppBar(
+            canNavigateBack = true,
+            currentScreen = MyMoscowScreen.Start,
+            navigateUp = {})
+    }
 }

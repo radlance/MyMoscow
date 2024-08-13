@@ -1,4 +1,4 @@
-package com.radlance.mymoscow
+package com.radlance.mymoscow.ui
 
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier

@@ -2,4 +2,12 @@
     <string name="app_name">MyMoscow</string>
     <string name="back_button">back button</string>
     <string name="separated_app_name">My Moscow</string>
+    <string name="historical_landmarks">Historical and Cultural Landmarks</string>
+    <string name="parks">Parks</string>
+    <string name="museums">Museums</string>
+    <string name="restaurants_and_cafes">Restaurants and Cafes</string>
+    <string name="shopping_malls">Shopping Centers and Markets</string>
+    <string name="sports_facilities">Sports Facilities</string>
+    <string name="science_centers">Educational Institutions and Science Centers</string>
+    <string name="walking_routes">Walking Routes and Tours</string>
 </resources>
