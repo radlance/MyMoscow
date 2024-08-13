@@ -10,4 +10,52 @@
     <string name="sports_facilities">Sports Facilities</string>
     <string name="science_centers">Educational Institutions and Science Centers</string>
     <string name="walking_routes">Walking Routes and Tours</string>
+
+    <string name="red_square">Red Square</string>
+    <string name="moscow_kremlin">Moscow Kremlin</string>
+    <string name="st_basils_cathedral">St. Basil\'s Cathedral</string>
+    <string name="bolshoi_theatre">Bolshoi Theatre</string>
+    <string name="tretyakov_gallery">Tretyakov Gallery</string>
+
+    <string name="gorky_park">Gorky Park</string>
+    <string name="zaryadye_park">Zaryadye Park</string>
+    <string name="vdnkh">VDNKh</string>
+    <string name="msu_botanical_garden">Moscow State University Botanical Garden</string>
+    <string name="sokolniki_park">Sokolniki Park</string>
+
+    <string name="state_historical_museum">State Historical Museum</string>
+    <string name="garage_museum">Garage Museum of Contemporary Art</string>
+    <string name="polytechnic_museum">Polytechnic Museum</string>
+    <string name="museum_of_cosmonautics">Museum of Cosmonautics</string>
+    <string name="tsaritsyno_museum_reserve">Tsaritsyno Museum-Reserve</string>
+
+    <string name="white_rabbit">White Rabbit</string>
+    <string name="cafe_pushkin">Café Pushkin</string>
+    <string name="lavkalavka">LavkaLavka</string>
+    <string name="selfie">Selfie</string>
+    <string name="turandot">Turandot</string>
+
+    <string name="gum">GUM</string>
+    <string name="tsum">TSUM</string>
+    <string name="european_shopping_center">European Shopping Center</string>
+    <string name="afimall_city">Afimall City</string>
+    <string name="central_market">Central Market</string>
+
+    <string name="luzhniki_stadium">Luzhniki Stadium</string>
+    <string name="olympic_complex">Olympic Complex</string>
+    <string name="vtb_arena">VTB Arena</string>
+    <string name="cska_arena">CSKA Arena</string>
+    <string name="otkritie_arena">Otkritie Arena Sports Complex</string>
+
+    <string name="msu">Moscow State University (MSU)</string>
+    <string name="rsl">Russian State Library (RSL)</string>
+    <string name="planetarium">Planetarium</string>
+    <string name="moscow_zoo">Moscow Zoo</string>
+    <string name="experimentanium">Experimentanium Science Museum</string>
+
+    <string name="moscow_river">Moscow River (river cruises)</string>
+    <string name="arbat_street">Arbat Street (pedestrian street)</string>
+    <string name="boulevard_ring">Boulevard Ring</string>
+    <string name="patriarchs_ponds">Patriarch\'s Ponds</string>
+    <string name="ostozhenka_street">Ostozhenka Street (historic buildings)</string>
 </resources>
