@@ -21,17 +21,17 @@ import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import com.radlance.mymoscow.R
 import com.radlance.mymoscow.data.LocalStorage
-import com.radlance.mymoscow.domain.Category
+import com.radlance.mymoscow.domain.Recommendation
 import com.radlance.mymoscow.ui.theme.AppTheme
 
 @Composable
-fun CategoryListItem(
-    currentCategory: Category,
-    onItemClicked: (Category) -> Unit,
+fun RecommendationListItem(
+    currentRecommendation: Recommendation,
+    onItemClicked: (Recommendation) -> Unit,
     modifier: Modifier = Modifier
 ) {
     Surface(
-        onClick = { onItemClicked(currentCategory) },
+        onClick = { onItemClicked(currentRecommendation) },
         shape = MaterialTheme.shapes.medium,
         modifier = modifier,
         color = MaterialTheme.colorScheme.surfaceVariant,
@@ -41,13 +41,13 @@ fun CategoryListItem(
             modifier = Modifier.fillMaxWidth()
         ) {
             Image(
-                painter = painterResource(id = currentCategory.imageResourceId),
+                painter = painterResource(id = currentRecommendation.imageResourceId),
                 contentDescription = null,
                 modifier = Modifier.size(120.dp),
                 contentScale = ContentScale.Crop
             )
             Text(
-                text = stringResource(id = currentCategory.titleResourceId),
+                text = stringResource(id = currentRecommendation.titleResourceId),
                 style = MaterialTheme.typography.titleMedium,
                 fontSize = 20.sp,
                 textAlign = TextAlign.Center,
@@ -62,10 +62,10 @@ fun CategoryListItem(
 
 @Preview
 @Composable
-private fun CategoryListItemPreview() {
+private fun RecommendationListItemPreview() {
     AppTheme {
-        CategoryListItem(
-            currentCategory = LocalStorage.getCategories()[0],
+        RecommendationListItem(
+            currentRecommendation = LocalStorage.getRecommendationsByCategoryId(1)[0],
             onItemClicked = {}
         )
     }

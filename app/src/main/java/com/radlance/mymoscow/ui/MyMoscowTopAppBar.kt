@@ -9,25 +9,22 @@ import androidx.compose.material3.Icon
 import androidx.compose.material3.IconButton
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
-import androidx.compose.ui.Modifier
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.tooling.preview.Preview
 import com.radlance.mymoscow.R
 import com.radlance.mymoscow.ui.theme.AppTheme
 
-
-enum class MyMoscowScreen(@StringRes val title: Int) {
-    Start(R.string.separated_app_name)
-
+enum class Screen(@StringRes val title: Int) {
+    Start(R.string.separated_app_name),
+    Recommendations(R.string.categories)
 }
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
 fun MyMoscowTopAppBar(
     canNavigateBack: Boolean,
-    currentScreen: MyMoscowScreen,
-    navigateUp: () -> Unit,
-    modifier: Modifier = Modifier
+    currentScreen: Screen,
+    navigateUp: () -> Unit
 ) {
     CenterAlignedTopAppBar(
         title = { Text(text = stringResource(id = currentScreen.title)) },
@@ -50,7 +47,7 @@ private fun MyMoscowTopAppBarPreview() {
     AppTheme {
         MyMoscowTopAppBar(
             canNavigateBack = true,
-            currentScreen = MyMoscowScreen.Start,
+            currentScreen = Screen.Start,
             navigateUp = {})
     }
 }

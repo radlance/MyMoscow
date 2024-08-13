@@ -2,6 +2,8 @@
     <string name="app_name">MyMoscow</string>
     <string name="back_button">back button</string>
     <string name="separated_app_name">My Moscow</string>
+    <string name="categories">categories</string>
+
     <string name="historical_landmarks">Historical and Cultural Landmarks</string>
     <string name="parks">Parks</string>
     <string name="museums">Museums</string>
