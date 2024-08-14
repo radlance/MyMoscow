@@ -47,7 +47,7 @@ object LocalStorage {
       Recommendation(26, R.string.luzhniki_stadium, R.string.luzhniki_stadium_description, R.drawable.luzhniki_stadium, 6),
       Recommendation(27, R.string.olympic_complex, R.string.olympic_complex_description, R.drawable.olympic_complex, 6),
       Recommendation(28, R.string.vtb_arena, R.string.vtb_arena_description, R.drawable.vtb_arena, 6),
-      Recommendation(29, R.string.cska_arena, R.string.cska_arena_desscription, R.drawable.cska_arena, 6),
+      Recommendation(29, R.string.cska_arena, R.string.cska_arena_description, R.drawable.cska_arena, 6),
       Recommendation(30, R.string.otkritie_arena, R.string.otkritie_arena_description, R.drawable.otkritie_arena, 6),
       Recommendation(31, R.string.msu, R.string.msu_description, R.drawable.msu, 7),
       Recommendation(32, R.string.rsl, R.string.rsl_description, R.drawable.rsl, 7),

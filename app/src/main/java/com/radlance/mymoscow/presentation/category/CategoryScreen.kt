@@ -16,7 +16,7 @@ import com.radlance.mymoscow.domain.Category
 import com.radlance.mymoscow.ui.theme.AppTheme
 
 @Composable
-fun CategoryList(
+fun CategoryScreen(
     categoryList: List<Category>,
     onItemClicked: (Category) -> Unit,
     modifier: Modifier = Modifier,
@@ -38,9 +38,9 @@ fun CategoryList(
 
 @Preview(showBackground = true)
 @Composable
-private fun CategoryListPreview() {
+private fun CategoryScreenPreview() {
     AppTheme {
-        CategoryList(
+        CategoryScreen(
             categoryList = LocalStorage.getCategories(),
             onItemClicked = {},
             Modifier.padding(dimensionResource(id = R.dimen.padding_medium))

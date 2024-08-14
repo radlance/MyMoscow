@@ -14,11 +14,11 @@
     <string name="walking_routes">Walking Routes and Tours</string>
 
     <string name="red_square">Red Square</string>
-    <string name="red_square_description">Red Square is the most famous landmark in Moscow and the heart of the city. It is surrounded by historic buildings, including St. Basil's Cathedral, the Kremlin, and the State Historical Museum. The square is a venue for military parades, concerts, and other public events, and it is a must-visit for tourists.</string>
+    <string name="red_square_description">Red Square is the most famous landmark in Moscow and the heart of the city. It is surrounded by historic buildings, including St. Basil\'s Cathedral, the Kremlin, and the State Historical Museum. The square is a venue for military parades, concerts, and other public events, and it is a must-visit for tourists.</string>
     <string name="moscow_kremlin">Moscow Kremlin</string>
     <string name="moscow_kremlin_description">The Moscow Kremlin is a fortified complex in the center of the city, serving as the official residence of the President of Russia. It includes five palaces, four cathedrals, and the enclosing Kremlin Wall with Kremlin towers. The Kremlin is a UNESCO World Heritage Site and a symbol of Russian power and history.</string>
     <string name="st_basils_cathedral">St. Basil\'s Cathedral</string>
-    <string name="st_basils_cathedral_description">St. Basil's Cathedral is an iconic church located in Red Square, known for its colorful, onion-shaped domes. Built in the 16th century, it is now a museum and a popular tourist attraction. The cathedral is a masterpiece of Russian architecture and a symbol of the country.</string>
+    <string name="st_basils_cathedral_description">St. Basil\'s Cathedral is an iconic church located in Red Square, known for its colorful, onion-shaped domes. Built in the 16th century, it is now a museum and a popular tourist attraction. The cathedral is a masterpiece of Russian architecture and a symbol of the country.</string>
     <string name="bolshoi_theatre">Bolshoi Theatre</string>
     <string name="bolshoi_theatre_description">The Bolshoi Theatre is a historic theater in Moscow, renowned for its performances of ballet and opera. Founded in 1776, it is one of the most prestigious theaters in the world. The Bolshoi Theatre has hosted performances by some of the greatest artists in history and continues to be a center for classical arts.</string>
     <string name="tretyakov_gallery">Tretyakov Gallery</string>
@@ -75,7 +75,7 @@
     <string name="vtb_arena">VTB Arena</string>
     <string name="vtb_arena_description">VTB Arena is a multi-purpose stadium and arena complex, home to various sports teams and hosting major events. It features a football stadium, an ice hockey arena, and a variety of other sports facilities. The complex is a popular spot for sports enthusiasts and event-goers.</string>
     <string name="cska_arena">CSKA Arena</string>
-    <string name="cska_arena_desscription">CSKA Arena is a sports arena primarily used for ice hockey and basketball, home to the CSKA Moscow teams. It features a variety of sports facilities, as well as a selection of food and beverage options. The arena is a popular spot for sports enthusiasts and fans of the CSKA Moscow teams.</string>
+    <string name="cska_arena_description">CSKA Arena is a sports arena primarily used for ice hockey and basketball, home to the CSKA Moscow teams. It features a variety of sports facilities, as well as a selection of food and beverage options. The arena is a popular spot for sports enthusiasts and fans of the CSKA Moscow teams.</string>
     <string name="otkritie_arena">Otkritie Arena Sports Complex</string>
     <string name="otkritie_arena_description">Otkritie Arena is a modern football stadium, home to Spartak Moscow, and hosting various sports and entertainment events. It features a variety of sports facilities, as well as a selection of food and beverage options. The stadium is a popular spot for sports enthusiasts and event-goers.</string>
 
@@ -97,7 +97,7 @@
     <string name="boulevard_ring">Boulevard Ring</string>
     <string name="boulevard_ring_description">The Boulevard Ring is a series of boulevards forming a circular route around central Moscow, featuring parks, gardens, and historic buildings. It is a popular spot for walking, cycling, and enjoying the outdoors. The ring is also home to various cultural and historical landmarks.</string>
     <string name="patriarchs_ponds">Patriarch\'s Ponds</string>
-    <string name="patriarchs_ponds_description">Patriarch's Ponds is a small park and pond in central Moscow, known for its tranquil atmosphere and literary significance. It is featured in Mikhail Bulgakov's novel "The Master and Margarita" and is a popular spot for locals and tourists alike. The park is a peaceful oasis in the heart of the city.</string>
+    <string name="patriarchs_ponds_description">Patriarch\'s Ponds is a small park and pond in central Moscow, known for its tranquil atmosphere and literary significance. It is featured in Mikhail Bulgakov\'s novel "The Master and Margarita" and is a popular spot for locals and tourists alike. The park is a peaceful oasis in the heart of the city.</string>
     <string name="ostozhenka_street">Ostozhenka Street</string>
-    <string name="ostozhenka_street_description">Ostozhenka Street is an upscale street in Moscow, known for its luxury apartments, high-end boutiques, and trendy cafes. It is a popular spot for shopping, dining, and enjoying the city's vibrant atmosphere. The street is also home to various cultural and historical landmarks.</string>
+    <string name="ostozhenka_street_description">Ostozhenka Street is an upscale street in Moscow, known for its luxury apartments, high-end boutiques, and trendy cafes. It is a popular spot for shopping, dining, and enjoying the city\'s vibrant atmosphere. The street is also home to various cultural and historical landmarks.</string>
 </resources>

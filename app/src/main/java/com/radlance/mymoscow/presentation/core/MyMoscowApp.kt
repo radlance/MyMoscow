@@ -15,8 +15,8 @@ import androidx.navigation.compose.composable
 import androidx.navigation.compose.currentBackStackEntryAsState
 import androidx.navigation.compose.rememberNavController
 import com.radlance.mymoscow.R
-import com.radlance.mymoscow.presentation.category.CategoryList
-import com.radlance.mymoscow.presentation.recommendation.RecommendationList
+import com.radlance.mymoscow.presentation.category.CategoryScreen
+import com.radlance.mymoscow.presentation.recommendation.RecommendationScreen
 
 @Composable
 fun MyMoscow(
@@ -46,7 +46,7 @@ fun MyMoscow(
             modifier = Modifier.padding(paddingValues)
         ) {
             composable(route = Screen.Start.name) {
-                CategoryList(
+                CategoryScreen(
                     categoryList = uiState.categories,
                     onItemClicked = {
                         mainViewModel.updateCurrentCategory(it)
@@ -63,7 +63,7 @@ fun MyMoscow(
             }
 
             composable(Screen.Recommendations.name) {
-                RecommendationList(
+                RecommendationScreen(
                     recommendationsList = uiState.currentRecommendations,
                     onItemClicked = {  },
                     modifier = Modifier

@@ -12,7 +12,7 @@ import com.radlance.mymoscow.R
 import com.radlance.mymoscow.domain.Recommendation
 
 @Composable
-fun RecommendationList(
+fun RecommendationScreen(
     recommendationsList: List<Recommendation>,
     onItemClicked: (Recommendation) -> Unit,
     modifier: Modifier = Modifier,
