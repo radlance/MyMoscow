@@ -14,50 +14,90 @@
     <string name="walking_routes">Walking Routes and Tours</string>
 
     <string name="red_square">Red Square</string>
+    <string name="red_square_description">Red Square is the most famous landmark in Moscow and the heart of the city. It is surrounded by historic buildings, including St. Basil's Cathedral, the Kremlin, and the State Historical Museum. The square is a venue for military parades, concerts, and other public events, and it is a must-visit for tourists.</string>
     <string name="moscow_kremlin">Moscow Kremlin</string>
+    <string name="moscow_kremlin_description">The Moscow Kremlin is a fortified complex in the center of the city, serving as the official residence of the President of Russia. It includes five palaces, four cathedrals, and the enclosing Kremlin Wall with Kremlin towers. The Kremlin is a UNESCO World Heritage Site and a symbol of Russian power and history.</string>
     <string name="st_basils_cathedral">St. Basil\'s Cathedral</string>
+    <string name="st_basils_cathedral_description">St. Basil's Cathedral is an iconic church located in Red Square, known for its colorful, onion-shaped domes. Built in the 16th century, it is now a museum and a popular tourist attraction. The cathedral is a masterpiece of Russian architecture and a symbol of the country.</string>
     <string name="bolshoi_theatre">Bolshoi Theatre</string>
+    <string name="bolshoi_theatre_description">The Bolshoi Theatre is a historic theater in Moscow, renowned for its performances of ballet and opera. Founded in 1776, it is one of the most prestigious theaters in the world. The Bolshoi Theatre has hosted performances by some of the greatest artists in history and continues to be a center for classical arts.</string>
     <string name="tretyakov_gallery">Tretyakov Gallery</string>
+    <string name="tretyakov_gallery_description">The Tretyakov Gallery is a world-famous art gallery housing a collection of Russian art. It includes works by Andrei Rublev, Ivan Aivazovsky, and Wassily Kandinsky. The gallery is a must-visit for art lovers and those interested in Russian culture and history.</string>
 
     <string name="gorky_park">Gorky Park</string>
+    <string name="gorky_park_description">Gorky Park is a large park along the Moskva River, featuring gardens, sports facilities, and cultural events. It is a popular spot for leisure activities, including cycling, rollerblading, and picnics. The park also hosts various festivals and concerts throughout the year.</string>
     <string name="zaryadye_park">Zaryadye Park</string>
+    <string name="zaryadye_park_description">Zaryadye Park is a modern park near the Kremlin, offering stunning views of the city, a floating bridge, and various cultural and educational facilities. It is designed to showcase the natural landscapes of Russia and features a media center, an amphitheater, and a nature center.</string>
     <string name="vdnkh">VDNKh</string>
+    <string name="vdnkh_description">VDNKh, or the Exhibition of Achievements of National Economy, is a large exhibition center showcasing Soviet and Russian achievements in science, technology, and culture. It features pavilions dedicated to various industries and regions, as well as amusement parks, ice rinks, and cultural events.</string>
     <string name="msu_botanical_garden">Moscow State University Botanical Garden</string>
+    <string name="msu_botanical_garden_description">The MSU Botanical Garden is a beautiful botanical garden affiliated with Moscow State University, featuring a wide variety of plant species from around the world. It includes greenhouses, an arboretum, and a Japanese garden. The garden is a popular spot for nature lovers and those interested in botany.</string>
     <string name="sokolniki_park">Sokolniki Park</string>
+    <string name="sokolniki_park_description"> Sokolniki Park is one of the oldest parks in Moscow, known for its lush greenery, recreational facilities, and cultural events. It features a large exhibition center, sports facilities, and a variety of cafes and restaurants. The park is a popular spot for picnics, cycling, and other outdoor activities.</string>
 
     <string name="state_historical_museum">State Historical Museum</string>
+    <string name="state_historical_museum_description">The State Historical Museum is dedicated to the history of Russia, housing a vast collection of artifacts and exhibits from ancient times to the present. It is located in Red Square and features exhibitions on Russian art, culture, and history. The museum is a must-visit for those interested in Russian history.</string>
     <string name="garage_museum">Garage Museum of Contemporary Art</string>
+    <string name="garage_museum_description">The Garage Museum of Contemporary Art is a contemporary art museum founded by Dasha Zhukova, showcasing modern and contemporary art from Russia and around the world. It features exhibitions by leading artists, as well as educational programs and events. The museum is a center for contemporary art and culture in Moscow.</string>
     <string name="polytechnic_museum">Polytechnic Museum</string>
+    <string name="polytechnic_museum_description">The Polytechnic Museum is a science and technology museum with a rich collection of inventions, scientific instruments, and technological innovations. It features exhibitions on various fields of science and technology, as well as interactive displays and educational programs. The museum is a popular spot for science enthusiasts and families.</string>
     <string name="museum_of_cosmonautics">Museum of Cosmonautics</string>
+    <string name="museum_of_cosmonautics_description">The Museum of Cosmonautics is dedicated to the history of space exploration, featuring exhibits on Soviet and Russian space programs. It includes a collection of spacecraft, rockets, and other artifacts related to space exploration. The museum is a must-visit for those interested in space and aviation.</string>
     <string name="tsaritsyno_museum_reserve">Tsaritsyno Museum-Reserve</string>
+    <string name="tsaritsyno_museum_reserve_description">Tsaritsyno Museum-Reserve is a historical and architectural complex in southern Moscow, featuring a palace, parks, and museums showcasing Russian art and history. It includes exhibitions on Russian architecture, landscape design, and cultural heritage. The complex is a popular spot for tourists and locals alike.</string>
 
     <string name="white_rabbit">White Rabbit</string>
-    <string name="cafe_pushkin">Café Pushkin</string>
+    <string name="white_rabbit_description">White Rabbit is a renowned restaurant in Moscow, known for its innovative cuisine and stunning views of the city. It offers a unique blend of Russian and international dishes, as well as an extensive wine list. The restaurant is a popular spot for fine dining and special occasions.</string>
+    <string name="cafe_pushkin">Cafe Pushkin</string>
+    <string name="cafe_pushkin_description">Cafe Pushkin is a famous cafe and restaurant in Moscow, offering a blend of Russian and French cuisine in an elegant setting. It is known for its exquisite interior, featuring antique furniture and decor. The cafe is a popular spot for tourists and locals alike, offering a unique dining experience.</string>
     <string name="lavkalavka">LavkaLavka</string>
+    <string name="lavkalavka_description">LavkaLavka is a farm-to-table restaurant and market, focusing on fresh, locally sourced ingredients and traditional Russian dishes. It offers a variety of seasonal dishes, as well as a selection of organic and artisanal products. The restaurant is a popular spot for those interested in sustainable and healthy dining.</string>
     <string name="selfie">Selfie</string>
+    <string name="selfie_description">Selfie is a popular restaurant and bar known for its creative cocktails and vibrant atmosphere. It offers a variety of international dishes, as well as a selection of signature cocktails. The restaurant is a popular spot for socializing and enjoying a night out in Moscow.</string>
     <string name="turandot">Turandot</string>
+    <string name="turandot_description">Turandot is an upscale restaurant with a luxurious interior, offering a fusion of European and Asian cuisines. It features a variety of exquisite dishes, as well as an extensive wine list. The restaurant is a popular spot for fine dining and special occasions, offering a unique and elegant atmosphere.</string>
 
     <string name="gum">GUM</string>
+    <string name="gum_description">GUM is a historic department store in Red Square, featuring high-end fashion brands, restaurants, and cafes. It is known for its stunning architecture and luxurious interior. The department store is a popular spot for shopping and dining, offering a variety of international and Russian brands.</string>
     <string name="tsum">TSUM</string>
+    <string name="tsum_description">TSUM is a luxury department store in central Moscow, offering a wide range of designer brands and fashion items. It features a variety of international and Russian designers, as well as a selection of high-end accessories and beauty products. The department store is a popular spot for shopping and fashion enthusiasts.</string>
     <string name="european_shopping_center">European Shopping Center</string>
+    <string name="european_shopping_center_description">The European Shopping Center is a large shopping mall featuring a variety of stores, restaurants, and entertainment options. It includes a selection of international and Russian brands, as well as a food court and a cinema. The shopping center is a popular spot for shopping and entertainment in Moscow.</string>
     <string name="afimall_city">Afimall City</string>
+    <string name="afimall_city_description">Afimall City is a modern shopping center in Moscow City, offering a mix of retail stores, dining options, and entertainment facilities. It features a variety of international and Russian brands, as well as a food court and a cinema. The shopping center is a popular spot for shopping and entertainment in the heart of Moscow.</string>
     <string name="central_market">Central Market</string>
+    <string name="central_market_description">The Central Market is a bustling marketplace offering a wide variety of fresh produce, local products, and unique shopping experiences. It features a selection of food stalls, cafes, and shops selling everything from fresh fruits and vegetables to handmade crafts and souvenirs. The market is a popular spot for locals and tourists alike.</string>
 
     <string name="luzhniki_stadium">Luzhniki Stadium</string>
+    <string name="luzhniki_stadium_description">Luzhniki Stadium is the largest sports stadium in Russia, hosting major football matches, concerts, and other events. It is the home stadium of the Russian national football team and has hosted numerous international competitions, including the 2018 FIFA World Cup. The stadium is a popular spot for sports enthusiasts and event-goers.</string>
     <string name="olympic_complex">Olympic Complex</string>
+    <string name="olympic_complex_description">The Olympic Complex is a sports complex featuring various facilities for athletics, swimming, and other sports, originally built for the 1980 Moscow Olympics. It includes a variety of sports venues, as well as a hotel and a conference center. The complex is a popular spot for sports events and competitions.</string>
     <string name="vtb_arena">VTB Arena</string>
+    <string name="vtb_arena_description">VTB Arena is a multi-purpose stadium and arena complex, home to various sports teams and hosting major events. It features a football stadium, an ice hockey arena, and a variety of other sports facilities. The complex is a popular spot for sports enthusiasts and event-goers.</string>
     <string name="cska_arena">CSKA Arena</string>
+    <string name="cska_arena_desscription">CSKA Arena is a sports arena primarily used for ice hockey and basketball, home to the CSKA Moscow teams. It features a variety of sports facilities, as well as a selection of food and beverage options. The arena is a popular spot for sports enthusiasts and fans of the CSKA Moscow teams.</string>
     <string name="otkritie_arena">Otkritie Arena Sports Complex</string>
+    <string name="otkritie_arena_description">Otkritie Arena is a modern football stadium, home to Spartak Moscow, and hosting various sports and entertainment events. It features a variety of sports facilities, as well as a selection of food and beverage options. The stadium is a popular spot for sports enthusiasts and event-goers.</string>
 
     <string name="msu">Moscow State University (MSU)</string>
+    <string name="msu_description">Moscow State University (MSU) is one of the oldest and most prestigious universities in Russia, known for its academic excellence and historic campus. It features a variety of faculties and departments, as well as a library, museums, and research centers. The university is a popular spot for students and academics from around the world.</string>
     <string name="rsl">Russian State Library (RSL)</string>
+    <string name="rsl_description">The Russian State Library (RSL) is one of the largest libraries in the world, housing an extensive collection of books and manuscripts. It features a variety of reading rooms, exhibition halls, and research facilities. The library is a popular spot for scholars, researchers, and book lovers.</string>
     <string name="planetarium">Planetarium</string>
+    <string name="planetarium_description">The Planetarium is a science museum and observatory dedicated to astronomy, featuring exhibits, shows, and educational programs. It includes a variety of interactive displays, as well as a planetarium dome and a telescope. The museum is a popular spot for science enthusiasts and families.</string>
     <string name="moscow_zoo">Moscow Zoo</string>
+    <string name="moscow_zoo_description">The Moscow Zoo is one of the oldest zoos in Europe, housing a wide variety of animals from around the world. It features a variety of exhibits, including a primate house, a reptile house, and a sea aquarium. The zoo is a popular spot for families and animal lovers.</string>
     <string name="experimentanium">Experimentanium Science Museum</string>
+    <string name="experimentanium_description">Experimentanium is an interactive science museum offering hands-on exhibits and educational programs for children and adults. It features a variety of interactive displays, as well as workshops and events. The museum is a popular spot for families and science enthusiasts.</string>
 
     <string name="moscow_river">Moscow River</string>
+    <string name="moscow_river_description">The Moscow River is a major river flowing through Moscow, offering scenic views, boat tours, and recreational activities. It is a popular spot for cruises, fishing, and water sports. The river is also a important transportation route, connecting various parts of the city.</string>
     <string name="arbat_street">Arbat Street</string>
+    <string name="arbat_street_description">Arbat Street is a historic pedestrian street in Moscow, known for its souvenir shops, cafes, and street performers. It is a popular spot for tourists and locals alike, offering a variety of shopping and dining options. The street is also known for its historic buildings and cultural significance.</string>
     <string name="boulevard_ring">Boulevard Ring</string>
+    <string name="boulevard_ring_description">The Boulevard Ring is a series of boulevards forming a circular route around central Moscow, featuring parks, gardens, and historic buildings. It is a popular spot for walking, cycling, and enjoying the outdoors. The ring is also home to various cultural and historical landmarks.</string>
     <string name="patriarchs_ponds">Patriarch\'s Ponds</string>
+    <string name="patriarchs_ponds_description">Patriarch's Ponds is a small park and pond in central Moscow, known for its tranquil atmosphere and literary significance. It is featured in Mikhail Bulgakov's novel "The Master and Margarita" and is a popular spot for locals and tourists alike. The park is a peaceful oasis in the heart of the city.</string>
     <string name="ostozhenka_street">Ostozhenka Street</string>
+    <string name="ostozhenka_street_description">Ostozhenka Street is an upscale street in Moscow, known for its luxury apartments, high-end boutiques, and trendy cafes. It is a popular spot for shopping, dining, and enjoying the city's vibrant atmosphere. The street is also home to various cultural and historical landmarks.</string>
 </resources>
