@@ -16,6 +16,7 @@ import androidx.navigation.compose.currentBackStackEntryAsState
 import androidx.navigation.compose.rememberNavController
 import com.radlance.mymoscow.R
 import com.radlance.mymoscow.presentation.category.CategoryScreen
+import com.radlance.mymoscow.presentation.place.PlaceScreen
 import com.radlance.mymoscow.presentation.recommendation.RecommendationScreen
 
 @Composable
@@ -64,8 +65,11 @@ fun MyMoscow(
 
             composable(Screen.Recommendations.name) {
                 RecommendationScreen(
-                    recommendationsList = uiState.currentRecommendations,
-                    onItemClicked = {  },
+                    recommendationsList = uiState.recommendations,
+                    onItemClicked = {
+                        mainViewModel.updateCurrentPlace(it)
+                        navController.navigate(Screen.Places.name)
+                    },
                     modifier = Modifier
                         .fillMaxWidth()
                         .padding(
@@ -73,6 +77,13 @@ fun MyMoscow(
                             start = dimensionResource(R.dimen.padding_medium),
                             end = dimensionResource(R.dimen.padding_medium),
                         )
+                )
+            }
+
+            composable(Screen.Places.name) {
+                PlaceScreen(
+                    recommendation = uiState.currentRecommendation!!,
+                    modifier = Modifier.fillMaxWidth()
                 )
             }
         }

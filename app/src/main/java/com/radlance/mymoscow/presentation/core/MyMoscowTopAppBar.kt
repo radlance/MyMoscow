@@ -16,7 +16,8 @@ import com.radlance.mymoscow.ui.theme.AppTheme
 
 enum class Screen {
     Start,
-    Recommendations
+    Recommendations,
+    Places
 }
 
 @OptIn(ExperimentalMaterial3Api::class)
@@ -51,6 +52,7 @@ fun MyMoscowTopAppBar(
 
 private fun determineTopBarTitle(currentScreenTitle: String, uiState: UiState): Int {
     return when (currentScreenTitle) {
+        Screen.Places.name -> uiState.currentRecommendation!!.titleResourceId
         Screen.Recommendations.name -> uiState.currentCategory!!.titleResourceId
         else -> R.string.separated_app_name
     }

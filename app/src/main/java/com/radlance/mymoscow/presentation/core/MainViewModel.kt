@@ -3,6 +3,7 @@ package com.radlance.mymoscow.presentation.core
 import androidx.lifecycle.ViewModel
 import com.radlance.mymoscow.data.LocalStorage
 import com.radlance.mymoscow.domain.Category
+import com.radlance.mymoscow.domain.Recommendation
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.flow.asStateFlow
@@ -19,8 +20,14 @@ class MainViewModel : ViewModel() {
         _uiState.update { currentState ->
             currentState.copy(
                 currentCategory = category,
-                currentRecommendations = LocalStorage.getRecommendationsByCategoryId(category.id)
+                recommendations = LocalStorage.getRecommendationsByCategoryId(category.id)
             )
+        }
+    }
+
+    fun updateCurrentPlace(recommendation: Recommendation) {
+        _uiState.update { currentState ->
+            currentState.copy(currentRecommendation = recommendation)
         }
     }
 }
