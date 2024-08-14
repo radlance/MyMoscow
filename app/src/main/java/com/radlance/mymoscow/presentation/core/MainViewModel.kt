@@ -1,4 +1,4 @@
-package com.radlance.mymoscow.presentation
+package com.radlance.mymoscow.presentation.core
 
 import androidx.lifecycle.ViewModel
 import com.radlance.mymoscow.data.LocalStorage

@@ -1,4 +1,4 @@
-package com.radlance.mymoscow.presentation
+package com.radlance.mymoscow.presentation.category
 
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.PaddingValues

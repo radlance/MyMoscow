@@ -1,4 +1,4 @@
-package com.radlance.mymoscow.presentation
+package com.radlance.mymoscow.presentation.core
 
 import com.radlance.mymoscow.domain.Category
 import com.radlance.mymoscow.domain.Recommendation

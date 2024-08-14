@@ -1,4 +1,4 @@
-package com.radlance.mymoscow.presentation
+package com.radlance.mymoscow.presentation.core
 
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.padding
@@ -15,6 +15,8 @@ import androidx.navigation.compose.composable
 import androidx.navigation.compose.currentBackStackEntryAsState
 import androidx.navigation.compose.rememberNavController
 import com.radlance.mymoscow.R
+import com.radlance.mymoscow.presentation.category.CategoryList
+import com.radlance.mymoscow.presentation.recommendation.RecommendationList
 
 @Composable
 fun MyMoscow(
