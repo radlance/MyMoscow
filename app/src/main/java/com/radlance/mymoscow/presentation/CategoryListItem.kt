@@ -1,4 +1,4 @@
-package com.radlance.mymoscow.ui
+package com.radlance.mymoscow.presentation
 
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.layout.Row

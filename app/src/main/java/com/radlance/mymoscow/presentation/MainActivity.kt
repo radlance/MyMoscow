@@ -1,4 +1,4 @@
-package com.radlance.mymoscow.ui
+package com.radlance.mymoscow.presentation
 
 import android.os.Bundle
 import androidx.activity.ComponentActivity

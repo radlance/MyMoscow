@@ -4,11 +4,11 @@
     <string name="separated_app_name">My Moscow</string>
     <string name="categories">categories</string>
 
-    <string name="historical_landmarks">Historical and Cultural Landmarks</string>
+    <string name="historical_landmarks">Historical Landmarks</string>
     <string name="parks">Parks</string>
     <string name="museums">Museums</string>
     <string name="restaurants_and_cafes">Restaurants and Cafes</string>
-    <string name="shopping_malls">Shopping Centers and Markets</string>
+    <string name="shopping_malls">Shopping Centers</string>
     <string name="sports_facilities">Sports Facilities</string>
     <string name="science_centers">Educational Institutions and Science Centers</string>
     <string name="walking_routes">Walking Routes and Tours</string>
@@ -55,9 +55,9 @@
     <string name="moscow_zoo">Moscow Zoo</string>
     <string name="experimentanium">Experimentanium Science Museum</string>
 
-    <string name="moscow_river">Moscow River (river cruises)</string>
-    <string name="arbat_street">Arbat Street (pedestrian street)</string>
+    <string name="moscow_river">Moscow River</string>
+    <string name="arbat_street">Arbat Street</string>
     <string name="boulevard_ring">Boulevard Ring</string>
     <string name="patriarchs_ponds">Patriarch\'s Ponds</string>
-    <string name="ostozhenka_street">Ostozhenka Street (historic buildings)</string>
+    <string name="ostozhenka_street">Ostozhenka Street</string>
 </resources>

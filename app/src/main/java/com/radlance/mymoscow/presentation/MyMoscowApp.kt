@@ -1,4 +1,4 @@
-package com.radlance.mymoscow.ui
+package com.radlance.mymoscow.presentation
 
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.padding
@@ -33,6 +33,7 @@ fun MyMoscow(
             MyMoscowTopAppBar(
                 canNavigateBack = navController.previousBackStackEntry != null,
                 currentScreen = currentScreen,
+                uiState = uiState,
                 navigateUp = { navController.navigateUp() }
             )
         }
@@ -46,7 +47,7 @@ fun MyMoscow(
                 CategoryList(
                     categoryList = uiState.categories,
                     onItemClicked = {
-                        mainViewModel.updateCurrentRecommendations(it.id)
+                        mainViewModel.updateCurrentCategory(it)
                         navController.navigate(Screen.Recommendations.name)
                     },
                     modifier = Modifier
@@ -62,7 +63,7 @@ fun MyMoscow(
             composable(Screen.Recommendations.name) {
                 RecommendationList(
                     recommendationsList = uiState.currentRecommendations,
-                    onItemClicked = {},
+                    onItemClicked = {  },
                     modifier = Modifier
                         .fillMaxWidth()
                         .padding(
