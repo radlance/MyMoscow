@@ -11,7 +11,10 @@ import kotlinx.coroutines.flow.update
 
 class MainViewModel : ViewModel() {
     private val _uiState = MutableStateFlow(
-        UiState(categories = LocalStorage.getCategories())
+        UiState(
+            categories = LocalStorage.getCategories(),
+            currentRecommendation = LocalStorage.getBaseRecommendation()
+        )
     )
     val uiState: StateFlow<UiState>
         get() = _uiState.asStateFlow()

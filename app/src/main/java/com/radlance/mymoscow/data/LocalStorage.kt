@@ -64,4 +64,8 @@ object LocalStorage {
     fun getRecommendationsByCategoryId(categoryId: Int): List<Recommendation> {
         return allRecommendations.filter { it.categoryId == categoryId }
     }
+
+    fun getBaseRecommendation(): Recommendation {
+        return allRecommendations[0]
+    }
 }
