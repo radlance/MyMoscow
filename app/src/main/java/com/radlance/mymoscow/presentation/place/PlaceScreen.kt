@@ -36,6 +36,11 @@ fun PlaceScreen(
             start = dimensionResource(id = R.dimen.padding_medium),
             end = dimensionResource(id = R.dimen.padding_medium),
             bottom = dimensionResource(id = R.dimen.padding_medium),
+            top = if (contentType == ContentType.Default) {
+                dimensionResource(id = R.dimen.padding_medium)
+            } else {
+                0.dp
+            }
         )
     ) {
         item {
@@ -53,7 +58,7 @@ private fun PlaceScreenItem(
     recommendation: Recommendation
 ) {
     val maxHeight = when (contentType) {
-        ContentType.Default -> 250.dp
+        ContentType.Default -> 550.dp
         ContentType.Medium -> 800.dp
         ContentType.Expanded -> 400.dp
     }

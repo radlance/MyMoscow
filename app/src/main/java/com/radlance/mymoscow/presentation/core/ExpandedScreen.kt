@@ -1,5 +1,6 @@
 package com.radlance.mymoscow.presentation.core
 
+import androidx.compose.animation.animateColorAsState
 import androidx.compose.animation.animateContentSize
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.layout.Arrangement
@@ -95,6 +96,10 @@ fun CategoryItem(
     modifier: Modifier = Modifier
 ) {
     var expanded by rememberSaveable { mutableStateOf(false) }
+    val animatedColor by animateColorAsState(
+        if (expanded) MaterialTheme.colorScheme.surfaceContainer else MaterialTheme.colorScheme.surfaceVariant,
+        label = "color"
+    )
     Surface(
         onClick = {
             onCategoryClicked(currentCategory)
@@ -102,11 +107,7 @@ fun CategoryItem(
         },
         shape = MaterialTheme.shapes.medium,
         modifier = modifier,
-        color = if (expanded) {
-            MaterialTheme.colorScheme.surfaceContainer
-        } else {
-            MaterialTheme.colorScheme.surfaceVariant
-        },
+        color = animatedColor
     ) {
         Column(modifier = Modifier.animateContentSize()) {
             Row(
@@ -214,21 +215,5 @@ private fun ExpandedScreenPreview() {
             currentRecommendation = LocalStorage.getRecommendationsByCategoryId(1)[0],
             onCategoryClicked = {}
         )
-    }
-}
-
-@Preview
-@Composable
-private fun CategoryItemPreview() {
-    AppTheme {
-
-    }
-}
-
-@Preview
-@Composable
-private fun RecommendationItemPreview() {
-    AppTheme {
-
     }
 }
