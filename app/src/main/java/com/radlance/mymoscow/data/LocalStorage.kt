@@ -3,9 +3,10 @@ package com.radlance.mymoscow.data
 import com.radlance.mymoscow.R
 import com.radlance.mymoscow.domain.Category
 import com.radlance.mymoscow.domain.Recommendation
+import com.radlance.mymoscow.domain.Repository
 
-object LocalStorage {
-    fun getCategories(): List<Category> {
+object LocalStorage : Repository {
+    override fun getCategories(): List<Category> {
         return listOf(
             Category(1, R.string.historical_landmarks, R.drawable.category_historical_landmarks),
             Category(2, R.string.parks, R.drawable.category_parks),
@@ -18,7 +19,7 @@ object LocalStorage {
         )
     }
 
-    private val allRecommendations = listOf(
+    private var allRecommendations = listOf(
       Recommendation(1, R.string.red_square, R.string.red_square_description, R.drawable.red_square, 1),
       Recommendation(2, R.string.moscow_kremlin, R.string.moscow_kremlin_description, R.drawable.moscow_kremlin, 1),
       Recommendation(3, R.string.st_basils_cathedral, R.string.st_basils_cathedral_description, R.drawable.st_basils_cathedral, 1),
@@ -61,11 +62,11 @@ object LocalStorage {
       Recommendation(40, R.string.ostozhenka_street, R.string.ostozhenka_street_description, R.drawable.ostozhenka_street, 8)
     )
 
-    fun getRecommendationsByCategoryId(categoryId: Int): List<Recommendation> {
+    override fun getRecommendationsByCategoryId(categoryId: Int): List<Recommendation> {
         return allRecommendations.filter { it.categoryId == categoryId }
     }
 
-    fun getBaseRecommendation(): Recommendation {
-        return allRecommendations[0]
+    override fun getBaseRecommendation(): Recommendation {
+        return allRecommendations.first()
     }
 }
